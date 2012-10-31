@@ -15,10 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     magicvalue.cpp \
-    ability.cpp
+    ability.cpp \
+    colorcard.cpp
 
 HEADERS  += mainwindow.h \
     magicvalue.h \
-    ability.h
+    ability.h \
+    colorcard.h
 
 FORMS    += mainwindow.ui
