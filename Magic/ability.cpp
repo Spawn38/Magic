@@ -9,3 +9,8 @@ Ability::Ability(QString& code,QString& text):MagicValue(code,text)
 {
 
 }
+
+Ability::~Ability()
+{
+
+}

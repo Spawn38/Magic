@@ -1,7 +1,6 @@
 #ifndef MAGICVALUE_H
 #define MAGICVALUE_H
 
-#include <string>
 #include <iostream>
 #include <QObject>
 
@@ -9,7 +8,7 @@ using namespace std;
 
 class MagicValue
 {
-private:
+protected:
     QString code;
     QString text;
 

@@ -9,3 +9,9 @@ ColorCard::ColorCard(QString& code,QString& text):MagicValue(code,text)
 {
 
 }
+
+ColorCard::~ColorCard()
+{
+
+}
+
