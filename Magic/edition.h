@@ -10,7 +10,7 @@ public:
     Edition(QString& abbreviation);
     QString getAbbreviation();
     void setAbbreviation(QString& abbreviation);
-    friend std::ostream& operator<<( std::ostream&,const Edition&);
+ //   friend std::ostream& operator<<( std::ostream&,const Edition&);
 private:
     QString abbreviation;
 

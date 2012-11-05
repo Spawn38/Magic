@@ -21,6 +21,7 @@ public:
     QString getText();
     void setText(QString& text);
     friend std::ostream& operator<<( std::ostream&,const MagicValue&);
+    friend bool operator==(const MagicValue,const MagicValue);
 };
 
 #endif // MAGICVALUE_H

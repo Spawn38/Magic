@@ -15,3 +15,8 @@ ColorCard::~ColorCard()
 
 }
 
+bool operator==( ColorCard m1, ColorCard m2)
+{
+    return (m1.getText().compare(m2.getText())==0);
+}
+

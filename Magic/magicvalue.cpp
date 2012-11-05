@@ -42,3 +42,8 @@ std::ostream& operator<<( std::ostream& flux, MagicValue& m)
     flux << QObject::tr("code : ").toStdString() << m.getCode().toStdString() << QObject::tr(" valeur : ").toStdString() << m.getText().toStdString() << endl;
     return flux;
 }
+
+bool operator==( MagicValue m1, MagicValue m2)
+{
+    return (m1.getText().compare(m2.getText())==0);
+}

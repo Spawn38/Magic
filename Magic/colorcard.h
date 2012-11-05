@@ -12,6 +12,7 @@ public:
     ColorCard();
     ColorCard(QString& code,QString& text);
     ~ColorCard();
+    friend bool operator==(const ColorCard,const ColorCard);
 };
 
 #endif // COLORCARD_H
